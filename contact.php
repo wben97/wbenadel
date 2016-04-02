@@ -9,7 +9,7 @@
     } 
     else {         
     $from="From: $firstname $lastname <$email>\r\nReturn-path: $email"; 
-    $subject="Message sent using 1988 contact form"; 
+    $subject="Message sent using Wassim's contact form"; 
     mail("contact@wassimbenadel.com", $subject, $message, $from); 
     echo "<h4 class='text-center'>Thank you for contacting us, we will respond withing 24 hours!</h4>"; 
     }
